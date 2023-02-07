@@ -1,0 +1,30 @@
+# from dis import _HaveCodeOrStringType
+from tkinter import *
+
+honey_root=Tk()
+
+
+# honey_root.mainloop()
+
+# question
+# what are other ways to create GUI IN PYTHON.
+
+frame =Frame(honey_root)
+frame.pack
+
+buttonframe =Frame(honey_root)
+buttonframe.pack(side = BOTTOM)
+
+greenbutton = Button(frame, text="White",fg="White")
+greenbutton.pack(side=RIGHT)
+
+pinkbutton = Button(frame, text="black",fg="black")
+pinkbutton.pack(side=LEFT)
+
+orangebutton = Button(frame,text="violet",fg="blue")
+orangebutton.pack(side=LEFT)
+
+purplebutton = Button(frame,text="white",fg="black")
+purplebutton.pack(side=BOTTOM)
+
+honey_root.mainloop()
